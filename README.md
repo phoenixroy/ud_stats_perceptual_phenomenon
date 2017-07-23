@@ -8,7 +8,7 @@ In this project, you will investigate a classic phenomenon from experimental psy
 
 ## Questions for investigation
 #### 1. What is our independent variable? What is our dependent variable?
-**Independent variable:** Condition (congruent/incongruent)
+**Independent variable:** Condition (congruent/incongruent)    
 **Dependent variable:** Time to name ink colours
 #### 2. What is an appropriate set of hypotheses for this task? What kind of statistical test do you expect to perform?
 **Hypothesis test**
