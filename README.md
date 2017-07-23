@@ -13,8 +13,7 @@ In this project, you will investigate a classic phenomenon from experimental psy
 #### 2. What is an appropriate set of hypotheses for this task? What kind of statistical test do you expect to perform?
 **Hypothesis test**
 
-**H0:** Time to name colours is the same for congruent and incongruent tasks
-
+**H0:** Time to name colours is the same for congruent and incongruent tasks    
 **HA:** Time to name colours is not the same for congruent and incongruent tasks
 
 **Statistical test**
