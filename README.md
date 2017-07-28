@@ -13,9 +13,20 @@ In this project, you will investigate a classic phenomenon from experimental psy
 #### 2. What is an appropriate set of hypotheses for this task? What kind of statistical test do you expect to perform?
 **Hypothesis test**
 
-**H0:** Time to name colours is the same for congruent and incongruent tasks    
-**HA:** Time to name colours is not the same for congruent and incongruent tasks
+**H0(Null hypotheses):** μi - μc = 0    
+Time to name colours is the same for congruent and incongruent tasks    
+**HA(Alternate hypotheses):** μi - μc ≠ 0    
+Time to name colours is not the same for congruent and incongruent tasks
 
+where μ is a population mean, the subscript "c" represents the congruent words condition, and the subscript "i" represents the incongruent words condition.
+
+We expect to perform a **Paired t-test**, because:    
+  - The data is roughly normally distributed    
+  - The two samples are dependent    
+  - We don't have any population parameters provided (so a z-test would not be appropriate here)    
+  - The samples size is below 30.
+
+#### 3.Report some descriptive statistics regarding this dataset. Include at least one measure of central tendency and at least one measure of variability.
 **Statistical test**
 
 | **Statistic** | **Congruent** | **Incongruent** |
@@ -41,8 +52,8 @@ The congruent words sample has a distribution which is between 8 and 22 seconds 
 S= 4.86482691    
 df= 23    
 t-stat= -8.020706944    
-at α 0.05, t-critical: -2.06865761; 2.06865761    
+at α 0.05, t-critical: -2.0686; 2.0686    
 P= 4.103E-08    
-95% CI= (-25.3527231, 9.42314)
+95% CI= (-10.0334  -5.8962)
 
 **Null hypothesis rejected.** At α 0.05, the time to name colours is significantly different between congruent and incongruent tasks. People do not name colours at the same speed when the word’s meaning and its colour match, as when they do not match. The result confirms my expectations. 
